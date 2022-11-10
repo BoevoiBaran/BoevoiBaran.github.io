@@ -1,0 +1,183 @@
+# Site
+repository: boevoibaran/boevoibaran.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Alexandr Kudrin
+title: Game Developer
+email: alexandr.kudrin.a@gmail.com
+
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+#twitter_username: facespics
+github_username:  boevoibaran
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+linkedin_username: boevoibaranboris
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: Telegram
+  icon: fab fa-telegram
+  url: https://t.me/boevoibaranboris
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's ... ->
+
+  My tech expertise lies in <mark>Unity</mark> and <mark>C#</mark>
+
+content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Helio
+        link: heliogames.com
+        # link_text: boringcompany.com
+        sub_title: Developer
+        caption: From - To
+        quote: >
+          Description
+        description: | # this will include new lines to allow paragraphs
+            Description
+      - layout: left
+        title: Nival
+        link: nival.com
+        sub_title: Unity developer
+        caption: From - To
+        quote: >
+          Leveling up in a real game dev environment.
+        description: |
+            Description
+
+  - title: Skills
+    layout: text
+    content: | 
+      <mark>Management</mark>, <mark>Unity</mark>, <mark>C#</mark>, <mark>.Net Core</mark>,  <mark>ASP.NET Core</mark>, <mark>Estimating</mark>, <mark>MongoDB</mark>, <mark>Git</mark>, <mark>Mercurial</mark>, <mark>SVN</mark>, <mark>Atlassian Confluence</mark>, <mark>Jira</mark>, <mark>Legacy digging</mark>, <mark>Python</mark>
+
+  - title: Projects
+    layout: text
+    content: |
+      [Some of my projects you could find over here](portfolio)
+
+  - title: Portfolio
+    layout: list
+    content:
+      - layout: top-middle
+        title: "Mutiny: Pirate Survival RPG"
+        additional_links:
+          - title:  YouTube
+            icon: fab fa-youtube
+            url: https://www.youtube.com/watch?v=4wbXPQjcY1w
+          - title:  Google Play
+            icon: fab fa-google-play
+            url: https://play.google.com/store/apps/details?id=com.heliogames.pirates
+          - title:  App Store
+            icon: fab fa-app-store
+            url: https://apps.apple.com/ru/app/mutiny-pirate-survival-rpg/id1490838880
+        description: |
+          #### Project
+          <img src="images/portfolio/mutiny_poster1.png" width="33%" align="right"/>
+          <img src="images/portfolio/mutiny_poster2.png" width="33%" align="right"/>
+          <img src="images/portfolio/mutiny_poster3.png" width="33%" align="right"/>
+          Survival RPG    
+          Pirate crew management    
+          Async PvP    
+          
+          #### My part
+          - bla
+          - bla
+          - bla-bla
+          - bla
+
+          #### Tech & skills
+          <mark>Tech planning</mark>, <mark>Roadmap composing</mark>, <mark>Hiring & Firing</mark>, <mark>Helping subordinates to build teams</mark>
+
+      - layout: top-middle
+        title: PL & FK
+        description: |
+          #### Project
+          <img src="images/portfolio/nda.png" width="15%" align="right"/>
+
+          Standalone strategy-RPG with indirect PvP    
+          and    
+          Mobile + Standalone adventure-survival
+
+          #### My part
+
+          - bla
+          - bla
+          - bla-bla
+          - bla
+
+          #### Tech & skills  
+
+          <mark>Team-leading</mark>, <mark>GPU profiling</mark>, <mark>CPU and memory profiling</mark>, <mark>ECS</mark>, <mark>Telepathy</mark>, <mark>Synchronous multiplayer</mark>
+
+      - layout: top-middle
+        title: "Prime World: Defenders 2"
+        additional_links:
+        - title:  Google Play
+          icon: fab fa-google-play
+          url: https://play.google.com/store/apps/details?id=com.nival.pwdefenders2
+        - title:  App Store
+          icon: fab fa-app-store
+          url: https://apps.apple.com/us/app/defenders-2-tower-defense-ccg/id939529493
+        description: |
+          #### Project
+          <img src="images/portfolio/defenders2_gameplay.png" width="33%" align="right"/>
+
+          - Mobile + Standalone game
+          - Tower defense
+          - with CCG elements
+          - Still in operation
+
+          <br clear="all" />
+          <img src="images/portfolio/defenders2_map.png" width="33%" align="right"/>
+          <img src="images/portfolio/defenders2_gameplay2.png" width="33%" align="right"/>
+          #### My part
+
+          - bla
+          - bla
+          - bla-bla
+          - bla
+
+          #### Tech & skills  
+
+          <mark>Steam</mark>, <mark>ECS</mark>, <mark>Server progress saves</mark>, <mark>NGUI</mark>, <mark>Facebook statistics</mark>    
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
