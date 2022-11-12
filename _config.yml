@@ -12,7 +12,7 @@ email: alexandr.kudrin.a@gmail.com
 
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 #twitter_username: facespics
@@ -42,9 +42,9 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's ... ->
+  Hi, my name's Alexandr =)
 
   My tech expertise lies in <mark>Unity</mark> and <mark>C#</mark>
 
@@ -56,31 +56,31 @@ content:
         title: Helio
         link: heliogames.com
         # link_text: boringcompany.com
-        sub_title: Developer
-        caption: From - To
+        sub_title: Unity and server developer
+        caption: June 2021 - Present
         quote: >
-          Description
+          Development as a backend developer.
         description: | # this will include new lines to allow paragraphs
-            Description
+            Support and development of game mechanics and game server. Implementation of monitoring systems for microservices and ensuring the smooth operation of servers.
       - layout: left
         title: Nival
         link: nival.com
         sub_title: Unity developer
-        caption: From - To
+        caption: January 2019 - June 2021
         quote: >
-          Leveling up in a real game dev environment.
-        description: |
-            Description
-
-  - title: Skills
-    layout: text
-    content: | 
-      <mark>Management</mark>, <mark>Unity</mark>, <mark>C#</mark>, <mark>.Net Core</mark>,  <mark>ASP.NET Core</mark>, <mark>Estimating</mark>, <mark>MongoDB</mark>, <mark>Git</mark>, <mark>Mercurial</mark>, <mark>SVN</mark>, <mark>Atlassian Confluence</mark>, <mark>Jira</mark>, <mark>Legacy digging</mark>, <mark>Python</mark>
+          Starting a career in game development.
+        description: | 
+            Made my way from junior to middle C# dev. Supported several existing titles and contributed to couple prototypes that were not released.
 
   - title: Projects
     layout: text
     content: |
       [Some of my projects you could find over here](portfolio)
+
+  - title: Skills
+    layout: text
+    content: | 
+      <mark>Unity</mark> <mark>C#</mark> <mark>.Net Core</mark> <mark>Python</mark> <mark>Golang</mark> <mark>Docker</mark> <mark>MongoDB</mark> <mark>Postgres</mark> <mark>Redis</mark> <mark>Git</mark> <mark>Postman</mark> <mark>Jira</mark> <mark>Estimating</mark> <mark>Legacy digging</mark>
 
   - title: Portfolio
     layout: list
@@ -98,43 +98,24 @@ content:
             icon: fab fa-app-store
             url: https://apps.apple.com/ru/app/mutiny-pirate-survival-rpg/id1490838880
         description: |
-          #### Project
+          
           <img src="images/portfolio/mutiny_poster1.png" width="33%" align="right"/>
           <img src="images/portfolio/mutiny_poster2.png" width="33%" align="right"/>
           <img src="images/portfolio/mutiny_poster3.png" width="33%" align="right"/>
-          Survival RPG    
-          Pirate crew management    
-          Async PvP    
+
+          #### Project
+          - Survival RPG    
+          - Pirate crew management    
+          - Async PvP    
           
           #### My part
-          - bla
-          - bla
-          - bla-bla
-          - bla
+          - Server architecture design
+          - Development of microservices for existing business tasks
+          - Support and development of meta game mechanics
+          - Development of the anti-cheat system
 
           #### Tech & skills
-          <mark>Tech planning</mark>, <mark>Roadmap composing</mark>, <mark>Hiring & Firing</mark>, <mark>Helping subordinates to build teams</mark>
-
-      - layout: top-middle
-        title: PL & FK
-        description: |
-          #### Project
-          <img src="images/portfolio/nda.png" width="15%" align="right"/>
-
-          Standalone strategy-RPG with indirect PvP    
-          and    
-          Mobile + Standalone adventure-survival
-
-          #### My part
-
-          - bla
-          - bla
-          - bla-bla
-          - bla
-
-          #### Tech & skills  
-
-          <mark>Team-leading</mark>, <mark>GPU profiling</mark>, <mark>CPU and memory profiling</mark>, <mark>ECS</mark>, <mark>Telepathy</mark>, <mark>Synchronous multiplayer</mark>
+          <mark>Tech planning</mark> <mark>Roadmap composing</mark> <mark>Perfomance monitoring</mark>
 
       - layout: top-middle
         title: "Prime World: Defenders 2"
@@ -146,27 +127,42 @@ content:
           icon: fab fa-app-store
           url: https://apps.apple.com/us/app/defenders-2-tower-defense-ccg/id939529493
         description: |
-          #### Project
-          <img src="images/portfolio/defenders2_gameplay.png" width="33%" align="right"/>
+          <img src="images/portfolio/defenders2_gameplay1.png" width="33%" align="right"/>
+          <img src="images/portfolio/defenders2_gameplay2.png" width="33%" align="right"/>
+          <img src="images/portfolio/defenders2_gameplay3.png" width="33%" align="right"/>
 
+          #### Project
           - Mobile + Standalone game
           - Tower defense
-          - with CCG elements
+          - With CCG elements
           - Still in operation
-
-          <br clear="all" />
-          <img src="images/portfolio/defenders2_map.png" width="33%" align="right"/>
-          <img src="images/portfolio/defenders2_gameplay2.png" width="33%" align="right"/>
+          - Async PvP   
+          
           #### My part
-
-          - bla
-          - bla
-          - bla-bla
-          - bla
+          - Support and development of the game client and server
+          - Support of existing SDKs
+          - Development of tools for QA and game designers
+          - Refactoring and bugfix
 
           #### Tech & skills  
+          <mark>Steam</mark> <mark>ECS</mark> <mark>Server progress saves</mark> <mark>Client server interaction</mark> <mark>NGUI</mark> <mark>Appsflyer</mark> <mark>Firebase</mark>    
 
-          <mark>Steam</mark>, <mark>ECS</mark>, <mark>Server progress saves</mark>, <mark>NGUI</mark>, <mark>Facebook statistics</mark>    
+      - layout: top-middle
+        title: PL & FK
+        description: |
+          <img src="images/portfolio/firekeeper_logo.png" width="33%" align="right"/>
+
+          #### Project
+          - Standalone and mobile adventure-survival-strategy-RPG
+          - Async PvP   
+          
+          #### My part
+          - C# programming
+          - Interface layout
+          - Development of unity editor extensions
+
+          #### Tech & skills  
+          <mark>Unity</mark> <mark>UI</mark> <mark>ECS</mark> <mark>Telepathy</mark> <mark>Synchronous multiplayer</mark>
 
 # Footer
 footer_show_references: true
